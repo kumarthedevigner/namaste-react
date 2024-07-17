@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namaste React Inception</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+
+    <script src="index.js"></script>
+    <!-- Calling the same script through external js file -->
+    <!-- <script>
+      const reactParent1 = React.createElement(
+        "div",
+        { id: "parent1" },
+        "Parent 1",
+        [
+          React.createElement("div", { id: "child1" }, "Child 1", [
+            React.createElement(
+              "div",
+              { id: "grandchild1.1" },
+              "Grandchild 1.1"
+            ),
+            React.createElement(
+              "div",
+              { id: "grandchild1.2" },
+              "Grandchild 1.2"
+            ),
+          ]),
+          React.createElement("div", { id: "child2" }, "Child 2", [
+            React.createElement(
+              "div",
+              { id: "grandchild2.1" },
+              "Grandchild 2.1"
+            ),
+            React.createElement(
+              "div",
+              { id: "grandchild2.2" },
+              "Grandchild 2.2"
+            ),
+          ]),
+        ]
+      );
+
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+      root.render(reactParent1);
+    </script> -->
+
+    <!-- Basic React element -->
+    <!-- <script>
+      const reactHeading = React.createElement(
+        "h1",
+        {},
+        "Namaste React Inception"
+      );
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+      root.render(reactHeading);
+    </script> -->
+
+    <script>
+      //Create an element with React
+
+      // Create an element via JavaScript
+      //   const rootElement = document.getElementById("root");
+      //   const newElement = document.createElement("h1");
+      //   newElement.innerHTML = "Namaste React Inception";
+      //   rootElement.appendChild(newElement);
+    </script>
+  </body>
+</html>
